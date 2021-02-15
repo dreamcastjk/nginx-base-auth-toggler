@@ -1,0 +1,9 @@
+.main-table {
+    margin-top: 25px;
+}
+
+.main-table th {
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,14 @@
+.button {
+    padding: 0 20px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid gold;
+    line-height: 40px;
+    background-color: transparent;
+    transition: background-color 300ms ease-in-out;
+}
+
+.button:hover {
+    background-color: gold;
+    transition: background-color 300ms ease-in-out;
+}

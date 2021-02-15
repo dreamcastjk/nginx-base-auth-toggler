@@ -1,0 +1,74 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'base-auth.css';
+@import 'container.css';
+@import 'button.css';
+@import 'main-table.css';
+
+.min-h-screen {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.logo-img {
+    max-width: 36px;
+}
+
+.bg-dimgray {
+    background: dimgrey;
+}
+
+.bg-dark {
+    background: #333;
+}
+
+.text-white h2 {
+    color: #fff;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-white form label {
+    color: #fff;
+}
+
+.small-icon {
+    max-width: 100px;
+}
+
+.color-white:hover {
+    color: #fff;
+}
+
+.color-white:focus {
+    color: #fff;
+}
+
+.bg-border-light {
+    border-color: #fff;
+}
+
+.border-indigo-400 {
+    border-color: #009639;
+}
+
+.button-green,
+.button-green:hover {
+    background-color: #009639;
+}
+
+.checkbox-green {
+    color: #009639;
+}
+
+.input-dark {
+    color: #000;
+}
